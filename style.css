@@ -9,7 +9,7 @@
 body {
   background: #fff;
   color: #111;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'JetBrains Mono', monospace;
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: -0.1px;
@@ -63,7 +63,7 @@ body {
 
 /* ── About ─────────────────────────────────────────────── */
 .about {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'JetBrains Mono', monospace;
   font-size: 15px;
   line-height: 1.6;
   color: #111;
@@ -71,7 +71,7 @@ body {
 }
 
 .nav-left {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 28px;
   font-weight: 500;
   color: #111;
@@ -89,7 +89,7 @@ body {
 
 /* ── Section headings ──────────────────────────────────── */
 h2 {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 22px;
   font-weight: 600;
   color: #111;
@@ -105,7 +105,7 @@ ul {
 
 ul li {
   margin: 6px 0;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'JetBrains Mono', monospace;
   font-size: 15px;
   line-height: 1.6;
   color: #111;
@@ -154,7 +154,7 @@ a:hover {
 }
 
 .bounty-amount {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 13px;
   font-weight: 600;
   color: #1e3a8a;
@@ -182,7 +182,7 @@ a:hover {
   display: inline-block;
   background: transparent;
   border: none;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'JetBrains Mono', monospace;
   font-size: 13px;
   color: #6b7280;
   text-decoration: underline;

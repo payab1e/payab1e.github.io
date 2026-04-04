@@ -63,6 +63,15 @@ body {
   margin-bottom: 8px;
 }
 
+/* ── Name heading ──────────────────────────────────────── */
+h1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 28px;
+  font-weight: 500;
+  color: #111;
+  margin-bottom: 12px;
+}
+
 /* ── Section headings ──────────────────────────────────── */
 h2 {
   font-family: 'IBM Plex Mono', monospace;

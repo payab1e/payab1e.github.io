@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,62 +7,65 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="layout">
+  <div id="page-container">
+    <div class="page">
+      <div class="page-content">
 
-    <!-- Sidebar -->
-    <aside class="sidebar">
-      <div class="sidebar-inner">
-        <div class="profile">
-          <h1 class="name">INWEOL BAE</h1>
-          <p class="title">Security Researcher</p>
+        <!-- Profile image -->
+        <img class="profile-img" src="profile.png" alt="profile" />
+
+        <!-- Header -->
+        <div class="header">
+          <h1 class="name">Inweol Bae</h1>
+          <div class="contacts">
+            <a href="mailto:baeinweol@gmail.com">baeinweol@gmail.com</a>
+            <span class="sep">|</span>
+            <a href="https://blog.payable.kr" target="_blank">blog.payable.kr</a>
+            <span class="sep">|</span>
+            <a href="https://github.com/payab1e" target="_blank">GitHub/payab1e</a>
+          </div>
         </div>
 
-        <nav class="nav">
-          <a href="#about">About</a>
-          <a href="#experience">Experience</a>
-          <a href="#ctf">CTF</a>
-          <a href="#interests">Interests</a>
-        </nav>
-
-        <div class="contact">
-          <a href="mailto:baeinweol@gmail.com">baeinweol@gmail.com</a>
-          <a href="https://github.com/payab1e" target="_blank">github.com/payab1e</a>
-          <a href="https://blog.payable.kr" target="_blank">blog.payable.kr</a>
+        <!-- About -->
+        <div class="section">
+          <div class="section-title">About</div>
+          <div class="section-body">
+            <p>Security researcher focused on Web2, Web3, CTF, and bug bounty.</p>
+          </div>
         </div>
+
+        <!-- Experience -->
+        <div class="section">
+          <div class="section-title">Work Experience</div>
+          <div class="section-body">
+            <div class="entry">
+              <span class="entry-name">— to be added —</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTF Organizations -->
+        <div class="section">
+          <div class="section-title">CTF Organizations</div>
+          <div class="section-body">
+            <div class="entry">
+              <span class="entry-name">— to be added —</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTF Achievements -->
+        <div class="section">
+          <div class="section-title">CTF Achievements</div>
+          <div class="section-body">
+            <div class="entry">
+              <span class="entry-name">— to be added —</span>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </aside>
-
-    <!-- Main Content -->
-    <main class="main">
-
-      <section id="about" class="section">
-        <h2 class="section-title">About</h2>
-        <p class="about-text">
-          Security researcher in Web2 and Web3, with interests in CTF, bug bounty, and smart contract auditing.
-        </p>
-      </section>
-
-      <section id="experience" class="section">
-        <h2 class="section-title">Experience</h2>
-        <div class="empty-state">— to be added —</div>
-      </section>
-
-      <section id="ctf" class="section">
-        <h2 class="section-title">CTF</h2>
-        <div class="empty-state">— to be added —</div>
-      </section>
-
-      <section id="interests" class="section">
-        <h2 class="section-title">Interests</h2>
-        <ul class="tag-list">
-          <li>Web2 Security</li>
-          <li>Web3 / Smart Contract Auditing</li>
-          <li>CTF</li>
-          <li>Bug Bounty</li>
-        </ul>
-      </section>
-
-    </main>
+    </div>
   </div>
 </body>
 </html>

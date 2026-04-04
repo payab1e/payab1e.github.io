@@ -1,2 +1,3 @@
 # payab1e.github.io
-blog
+
+Personal portfolio site — [payab1e.github.io](https://payab1e.github.io)
